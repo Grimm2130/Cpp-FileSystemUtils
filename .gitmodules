@@ -1,0 +1,3 @@
+[submodule "ExternalModules/Templates"]
+	path = ExternalModules/Templates
+	url = https://github.com/Grimm2130/Templates.git

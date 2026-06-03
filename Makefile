@@ -16,7 +16,7 @@ build-debug:
 	@cd ${DIR_BUILD} && cmake -S .. -B . -DCMAKE_BUILD_TYPE=DEBUG && cmake --build .
 
 build:
-	@cd ${DIR_BUILD} && cmake -S .. -B . && cmake --build .
+	@cd ${DIR_BUILD} && cmake -S .. -B . -DRUN_TESTS=TRUE && cmake --build .
 
 rebuild-debug: clean rebase build-debug
 

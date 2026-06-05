@@ -1,26 +1,27 @@
 # Todo List
 
-Implement the following:
+- Implement the following:
+    - [x] FileAccess::Exists
+    - [x] FileAccess::CanRead
+    - [x] FileAccess::CanWrite
+    - [x] FileAccess::CanExecute
+    - [x] FileReader::Read - Reads character
+    - [x] FileReader::ReadUntil - Reads until token specified or null terminator
+    - [x] FileReader::ReadLine - Reads line
+    - [x] FileWriter::Write
+    - [x] FileWriter::Write
+    - [x] FileOperations::Create
+    - [x] FileOperations::Delete
+    - [x] FileOperations::Copy
+    - [x] FileOperations::Move
+    - [x] FileOperations::Concat
+    - [x] FileOperations::Size
 
-    - File Access:
-        - Exists
-        - CanRead
-        - CanWrite
-        - CanExecute
-
-    File Reader: Static Class
-        - char Read - Reads character
-        - string ReadUntil - Reads until token specified or null terminator
-        - string ReadLine - Reads line
-
-    File Writer: Static Class
-        - int Write( const char )
-        - int Write( const char * )
-
-    - File Operations
-        - Create
-        - Delete
-        - Copy
-        - Move
-        - Concat
-        - Size
+- Complete Tests for the following
+    - [ ] Append
+    - [ ] Create
+    - [ ] Delete
+    - [ ] Copy
+    - [ ] Move
+    - [ ] Concat
+    - [ ] Size

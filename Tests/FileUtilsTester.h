@@ -187,7 +187,6 @@ namespace FileSystemUtils
             {
 
             }
-
         };
 
         const std::string File::Phrase = "Hello Chima";
